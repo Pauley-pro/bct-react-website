@@ -1,0 +1,185 @@
+.Logo{
+    margin-left: 20px;
+    margin-top: -70px;
+}
+
+.Logo2{
+    margin-left: 20px;
+}
+
+.Link{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    background-color: white;
+}
+
+.Nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+.Nav-links li{
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Navbar{
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        background-color: white;
+    }
+
+    .Logo{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .Logo1{
+        width: 20px;
+        height: 20px;
+    }
+
+    .Logo2{
+        width: 30px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .Nav-links{
+        display: none;
+    }
+
+    .Nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+        left: 0;
+        top: 30%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background-color: white;
+    }
+
+    ul li{
+        padding: 32px;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    #Link{
+        text-align: center;
+    }
+
+    .mobile-menu-icon{
+        position: absolute;
+        display: block;
+        right: 130px;
+        top: 35px
+    }
+}
+
+@media (max-width: 420px) {
+    .Navbar{
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        background-color: white;
+    }
+
+    .Logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: -30px;
+    }
+
+    .Logo1{
+        width: 20px;
+        height: 20px;
+    }
+
+    .Logo2{
+        width: 30px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .Nav-links{
+        display: none;
+    }
+
+    .Nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+        left: 0;
+        top: 15%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background-color: white;
+    }
+
+    ul{
+        margin-left: -30px;
+    }
+
+    ul li{
+        padding: 32px;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    #Link{
+        text-align: center;
+    }
+
+    .mobile-menu-icon{
+        position: absolute;
+        display: block;
+        right: 80px;
+        top: 25px
+    }
+}
+
+

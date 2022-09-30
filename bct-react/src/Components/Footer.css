@@ -1,0 +1,195 @@
+.Foote{
+    clear: both;
+}
+
+.footerLogo{
+    margin-left: -130px;
+}
+
+.Div1{
+    margin-left: -40px;
+}
+
+ul{
+    list-style-type:none;
+    margin-top:25px;
+}
+
+li{
+    text-align: left;
+}
+
+h5{
+    font-size:18px;
+    font-family:monospace;
+}
+
+.Twitter{
+    width:20px;
+    height:20px;
+    margin:1%;
+    margin-left:80px;
+}
+
+.Facebook{
+    width:20px;
+    height:20px;
+    margin:1%;
+}
+
+.Linkedin{
+    width:20px;
+    height:20px;
+    margin:1%;
+}
+
+.Instagram{
+    width:20px;
+    height:20px;
+    margin:1%;
+}
+
+.Copyright{
+    clear:both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Soc-media{
+    width: 50%
+}
+
+.Right{
+    width: 50%;
+    font-family:monospace;
+    margin-left:700px;
+}
+
+@media (max-width: 768px){
+    .footerLogo{
+        margin-left: 10px;
+    }
+
+    .div1{
+        margin-left: -230px;
+        margin-top: -30px;
+    }
+
+    .div2{
+        margin-left: -135px;
+        margin-top: -40px;
+    }
+
+    .div3{
+        margin-left: -215px;
+        margin-top: -40px;
+    }
+
+    .div4{
+        margin-left: -100px;
+        margin-top: -40px;
+    }
+
+    .div5{
+        margin-left: -175px;
+        margin-top: -40px;
+    }
+
+    .div6{
+        margin-left: -260px;
+        margin-top: -40px;
+    }
+
+    .div7{
+        margin-left: -250px;
+        margin-top: -25px;
+    }
+
+    .div8{
+        margin-left: -250px;
+        margin-top: -35px;
+    }
+
+    .div9{
+        margin-left: -240px;
+        margin-top: -35px;
+    }
+
+    .div10{
+        margin-left: -300px;
+        margin-top: -35px;
+    }
+
+    .div11{
+        margin-left: -250px;
+        margin-top: -35px;
+    }
+
+    .div12{
+        margin-left: -290px;
+        margin-top: -35px;
+    }
+
+    .div13{
+        margin-left: -310px;
+        margin-top: -25px;
+    }
+
+    .div14{
+        margin-left: -290px;
+        margin-top: -25px;
+    }
+     
+    .div15{
+        margin-left: -295px;
+        margin-top: -40px;
+    }
+
+    .div16{
+        margin-left: -305px;
+        margin-top: -40px;
+    }
+
+    .div17{
+        margin-left: -270px;
+        margin-top: -40px;
+    }
+
+    .Copyright{
+        clear:both;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Soc-media{
+        width: 50%
+    }
+    
+    .Right{
+        width: 50%;
+        font-family:monospace;
+        margin-left:300px;
+    }
+}
+
+
+@media (max-width: 420px){
+    .Copyright{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .Soc-media{
+        width: 100%
+    }
+
+    .Right{
+        width: 100%;
+        margin-left: 90px;
+    }
+}

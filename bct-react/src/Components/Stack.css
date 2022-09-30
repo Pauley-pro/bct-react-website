@@ -1,0 +1,294 @@
+.General{
+    margin-top:130px;
+    margin-left:130px;
+}
+
+.Stack{
+    font-size:17.76px;
+    font-weight:400;
+    font-family:monospace;
+    letter-spacing:2px;
+}
+
+.Tech{
+    font-family:monospace;
+    font-size:58px;
+    font-weight:500;
+    padding-top:50px;
+}
+
+.Rectangle{
+    height:5px;
+    width:63%;
+    margin-left: 5px;
+}
+
+.But-cen{
+    margin-top:80px;
+}
+
+.Butdiv1{
+    margin-top: 100px;
+}
+
+.Butdiv2{
+    margin-top: 20px;
+    margin-left: -110px;
+}
+
+.But6{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    font-weight:500;
+    width:100%;
+    margin:10px;
+    margin-left: -45px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But7{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    width:100%;
+    font-weight:500;
+    margin:10px;
+    margin-left: -55px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But8{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    width:100%;
+    font-weight:500;
+    margin:10px;
+    margin-left: -65px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But9{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    width:100%;
+    font-weight:500;
+    margin:10px;
+    margin-left: -75px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But10{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    width:100%;
+    font-weight:500;
+    margin:10px;
+    color:black;
+    background-color:beige;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But11{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    font-weight:500;
+    width:100%;
+    margin:10px;
+    margin-left: 0px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+}
+
+.But6:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But7:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But8:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But9:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But10:hover{
+    background-color:transparent;
+    border:solid pink 2px;
+    color:white;
+}
+
+.But11:hover{
+    background-color:transparent;
+    border:solid pink 2px;
+    color:white;
+}
+
+.Transparent{
+    font-size:11px;
+    border-radius:23px;
+    height:100px;
+    width:98%;
+    margin:10px;
+    margin-left: -10px;
+    color:black;
+    background-color:transparent;
+    border:solid black 1px;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-family:monospace;
+}
+
+.Transparent:hover{
+    background-color:beige;
+    color:black;
+    transition:0.5s;
+    border: none;
+}
+
+@media (max-width: 768px){
+    .General{
+        margin-left: 60px;
+        width: 100%;
+    }
+
+    .Tech{
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: -20px;
+    }
+
+    .But6{
+        margin-left: -15px;
+        width: 80%;
+    }
+
+    .But7{
+        margin-left: -50px;
+        width: 80%;
+    }
+
+    .But8{
+        margin-left: -85px;
+        width: 80%;
+    }
+
+    .But9{
+        margin-left: -15px;
+        width: 80%;
+    }
+
+    .But10{
+        margin-left: -5px;
+        width: 80%;
+    }
+
+    .But11{
+        margin-left: -40px;
+        width: 80%;
+    }
+
+    .Transparent{
+        margin-left: -70px;
+        width: 80%;
+    }
+
+    .Butdiv2{
+        margin-top: 5px;
+        margin-left: -25px;
+    }
+
+
+}
+
+@media (max-width: 420px){
+    .General{
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+
+    .Tech{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: -40px;
+    }
+
+    .Rectangle{
+        margin-top: -10px;
+    }
+
+    .Butdiv1{
+        margin-top: 30px;
+    }
+
+    .But6, .But7, .But8, .But9, .But10, .But11{
+        height: 80px;
+    }
+
+    .But10, .But11{
+        width: 95%;
+    }
+
+    .Transparent{
+        margin-left: 10px;
+        width: 95%;
+        height: 80px;
+    }
+}

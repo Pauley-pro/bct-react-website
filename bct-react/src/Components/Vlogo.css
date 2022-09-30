@@ -1,0 +1,11 @@
+.Vlogo{
+    height:100px;
+    margin-top:40px;
+    margin-left:40px;
+}
+
+@media screen and (max-width:576px){
+    .Vlogo{
+        display:none;
+    }
+}

@@ -1,0 +1,68 @@
+.Div-ser{
+    margin-left:140px;
+    margin-top:110px
+}
+
+.Service{
+    font-size:17.76px;
+    font-weight:400;
+    font-family:monospace;
+    letter-spacing:2px;
+    margin-left:15px;
+}
+
+.Company{
+    font-size:58px;
+    font-family:monospace;
+    margin-left:15px;
+    padding-top:40px;
+}
+
+.Rectangle{
+    height:6px;
+    width:65%;
+    margin-left:15px;
+    margin-top:30px;
+}
+
+
+@media (max-width: 768px){
+    .Div-ser{
+        margin-left:50px;
+        margin-top:110px;
+        width: 80%;
+    }
+
+    .Company{
+        font-size: 50px;
+        margin-top: -20px;
+        
+    }
+
+    .Rectangle{
+        height: 6px;
+        width: 65%;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 420px){
+    .Div-ser{
+        margin-left:5px;
+        margin-top:110px
+    }
+
+    .Company{
+        font-size: 30px;
+        margin-top: -20px;
+        margin-left:10px;
+    }
+
+    .Rectangle{
+        height: 6px;
+        width: 65%;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+}    

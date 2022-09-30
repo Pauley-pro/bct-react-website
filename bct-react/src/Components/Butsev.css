@@ -1,0 +1,190 @@
+.But-cen{
+    margin-top:20px;
+    margin-left: -50px;
+}
+
+.But1{
+    font-size:13px;
+    border-radius:23px;
+    height:100px;
+    width:80%;
+    font-weight:500;
+    margin:20px;
+    margin-left:70px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.But2{
+    font-size:13px;
+    border-radius:23px;
+    height:100px;
+    width:90%;
+    font-weight:500;
+    margin:20px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.But3{
+    font-size:13px;
+    border-radius:23px;
+    height:100px;
+    width:80%;
+    font-weight:500;
+    margin:20px;
+    margin-left:70px;
+    color:black;
+    background-color:beige;
+   text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.But4{
+    font-size:13px;
+    border-radius:23px;
+    height:100px;
+    font-weight:500;
+    width:80%;
+    margin:20px;
+    margin-left:-20px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.But5{
+    font-size:13px;
+    border-radius:23px;
+    height:100px;
+    width:90%;
+    font-weight:500;
+    margin:20px;
+    margin-left:70px;
+    color:black;
+    background-color:beige;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-family:monospace;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.But1:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But2:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But3:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But4:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.But5:hover{
+    background-color:transparent;
+    border:solid black 1px;
+    color:black;
+}
+
+.Img-res{
+    float:left;
+    margin-left:23px;
+}
+
+@media (max-width: 768px){
+    .But-cen{
+        margin-left: -55px;
+    }
+
+    .But2{
+        width: 85%
+    }
+
+    .But4{
+        margin-left: 20px;
+        width: 85%
+    }
+
+    .But5{
+        width: 86%;
+    }
+}
+
+@media (max-width: 420px){
+    .But1{
+        width: 93%;
+        margin-top: -10px;
+        margin-left: 60px;
+        height: 80px;
+    }
+
+    .But2{
+        width: 93%;
+        margin-left: 60px;
+        height: 80px;
+    }
+
+    .But3{
+        width: 93%;
+        margin-left: 60px;
+        height: 80px;
+    }
+
+    .But4{
+        width: 93%;
+        margin-left: 60px;
+        height: 80px;
+    }
+
+    .But5{
+        width: 93%;
+        margin-left: 60px;
+        height: 80px;
+    }
+}

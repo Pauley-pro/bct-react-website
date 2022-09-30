@@ -1,0 +1,26 @@
+.Img{
+    margin-top:-40px;
+    background-color:white;
+}
+
+.Logo1{
+    height:42px;
+    width:44px;
+    float:left;
+    margin-left:65px;
+    margin-top:68px;
+}
+
+.Logo2{
+    height:35px;
+    width:80px;
+    margin-top:70px;
+    margin-left:23px;
+    float:left;
+}
+
+@media screen and (max-width:576px){
+    .Img{
+        margin-left:-40px;
+    }
+}

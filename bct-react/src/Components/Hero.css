@@ -1,0 +1,347 @@
+.Center{
+    clear: both;
+    padding-top: 200px;
+    width: 100%
+}
+
+.Para{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Pa2{
+    font-size:23px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family:monospace;
+    margin-top:20px;
+    padding-left:15px;
+}
+
+.Icon1{
+    margin-top: 20px;
+    height:80px;
+    width:80px;
+}
+
+.Icon-none{
+    display: none;
+}
+
+.Icon2{
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    height:80px;
+    width:80px;
+}
+
+.Icons3{
+    padding-left: 15px;
+    height:50px;
+    width:50px;
+}
+
+.Icons4, .Icons5, .Icons5, .Icons6, .Icons7, .Icons8{
+    padding-left: 20px;
+    height:50px;
+    width:50px;
+}
+
+.Schedule{
+    font-family:monospace;
+    font-weight:700;
+    text-decoration:none;
+    color:white;
+    border:black solid 1px;
+    background-color:black;
+    border-radius:2px;
+    font-size:15px;
+    padding:10px;
+    letter-spacing:2px;
+    height:40px;
+    width:250px;
+    text-align:center;
+    margin-left:14px;
+    margin-top:25px;
+}
+
+.Schedule:hover{
+    border:solid black 1px;
+    background-color:beige;
+    color:black;
+    letter-spacing:2px;
+    transition:0.5s;
+}
+
+.Span-class{
+    display:inline-flex;
+    margin-top:-1%;
+    margin-left:0%;
+}
+
+.Justify{
+    margin-left:5px;
+    font-size:15px;
+    margin-top:25px;
+}
+
+@media (max-width: 768px){
+    .Center{
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .Div{
+        margin-left: 30px
+    }
+
+   .Icon-none{
+        display: contents
+    }
+
+    .Icon1, .Icon2, .Icons3, .Icons4, .Icons5, .Icons6, .Icons8{
+        display: none;
+    }
+
+    .Para{
+        font-weight:450;
+        font-size: 50px;
+        line-height: 55px;
+        width: 90%;
+        padding-left: 20px;
+        margin-left: 25px;
+    }
+
+    .Pa2{
+        font-size: 30px;
+        padding-left: 15px;
+        width: 80%;
+        padding-left: 15px;
+        margin-left: 38px
+    }
+
+    .Span-class{
+        width: 80%;
+        margin-left: 38px
+    }
+
+    .sect{
+        width: 100%
+    }
+
+    .Schedule{
+        height: 60px
+    }
+
+    .Justify{
+       margin-left: 10px;
+       font-size: 15px
+    }
+}
+
+@media (max-width: 420px){
+    .Center{
+        width: 100%;
+        margin-top: -100px;
+        margin-left: 3px;
+    }
+
+    .Para{
+        font-weight:450;
+        font-size: 35px;
+        line-height: 45px;
+        width: 100%;
+    }
+
+    .Pa2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .Span-class{
+        flex-direction: column;
+    }
+
+    .Schedule{
+        width: 90%;
+    }
+
+    .Justify{
+        width: 100%;
+        text-align: center;
+        margin-left: -5px;
+    }
+}
+
+
+
+/*.Icon1{
+    float:left;
+    margin-left:110px;
+    margin-top:110px;
+}
+
+.Vl{
+    margin-top:-50px;
+    margin-left:50px;
+    height:600px;
+}
+
+.Dive{
+    float:left;
+    margin-top:70px;
+    margin-left:-50px;
+}
+
+.Icon2{
+    float:left;
+    margin-left:500px;
+    margin-top:100px;
+}
+
+.Center{
+    width:100%;
+    display:grid;
+    grid-template-columns:25% 50% 25%;
+    margin-top:50px;
+}
+
+.Icons3{
+    margin:2%;
+    margin-left:2%;
+    height:50px;
+    width:50px;
+}
+
+.Icons4{
+    margin:2%;
+    height:50px;
+    width:50px;
+}
+
+.Icons5{
+    margin:2%;
+    height:50px;
+    width:50px;
+}
+
+.Icons6{
+    margin:2%;
+    height:50px;
+    width:50px;
+}
+
+.Icons7{
+    margin:2%;
+    height:50px;
+    width:50px;
+}
+
+.Icons8{
+    margin:2%;
+    height:50px;
+    width:50px;
+}
+
+.Para{
+    font-weight:700;
+    font-size:55px;
+    line-height:70px;
+    width:750px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.Pa2{
+    font-size:20px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family:monospace;
+    margin-top:20px;
+    padding-left:15px;
+}
+
+.Schedule{
+    font-family:monospace;
+    font-weight:700;
+    text-decoration:none;
+    color:white;
+    border:black solid 1px;
+    background-color:black;
+    border-radius:2px;
+    font-size:10px;
+    padding:10px;
+    letter-spacing:2px;
+    height:18px;
+    width:180px;
+    padding-top:18px;
+    padding-bottom:15px;
+    padding-right:30px;
+    padding-left:30px;
+    text-align:center;
+    margin-left:14px;
+    margin-top:25px;
+}
+
+.Schedule:hover{
+    border:solid black 1px;
+    background-color:beige;
+    color:black;
+    letter-spacing:2px;
+    transition:0.5s;
+}
+
+.Span-class{
+    display:inline-flex;
+    margin-top:-1%;
+    margin-left:0%;
+}
+
+.Justify{
+    margin-left:35px;
+    font-size:17px;
+    margin-top:30px;
+}
+
+@media screen and (max-width:768px){
+    .Vl{
+        display:none;
+    }
+
+    .Div{
+        display:none;
+    }
+
+    .Icon2{
+        display:none
+    }
+
+    .Para{
+        font-weight:400;
+        font-size:35px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .Vl{
+        display:none;
+    }
+
+    .Div{
+        display:none;
+    }
+
+    .Icon2{
+        display:none
+    }
+
+    .Para{
+        font-weight:400;
+        font-size:25px;
+    }
+}*/

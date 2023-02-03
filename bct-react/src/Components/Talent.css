@@ -35,7 +35,7 @@
     margin:10px;
     color:black;
     background-color:transparent;
-    border:solid black 1px;
+    border:solid black 2px;
     text-align:center;
     text-transform:uppercase;
     text-decoration:none;
@@ -44,8 +44,8 @@
 }
 
 .Transparent2:hover{
-    background-color:beige;
-    color:black;
+    background-color: #171717;
+    color: white;
     transition:0.5s;
     border: none;
 }

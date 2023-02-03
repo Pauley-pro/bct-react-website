@@ -1,6 +1,6 @@
 .Benediv{
     width: 100%;
-    
+    padding-top: 50px;
 }
 
 .H2-style{
@@ -92,6 +92,7 @@ h1{
     width: 60%;
     margin-left:10%;
     margin-top:40px;
+    height: 5px;
 }
 
 @media (max-width: 768px){

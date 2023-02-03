@@ -14,6 +14,7 @@ import line from '../images/line.jpg';
 function Benefits(){
     return (
       <div className="Benediv">
+        <img src={line} alt='' className='Line'/>
         <h2 className="H2-style">
           TRUSTED BY SCALING ENGINEERING BEST ENGINEERING
         </h2>

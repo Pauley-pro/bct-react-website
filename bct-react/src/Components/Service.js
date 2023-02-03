@@ -7,10 +7,10 @@ import Rectangle from '../images/rectangle.jpg';
 
 function Service(){
     return (
-        <div className="Div-ser">
+        <div className="Div-ser" id="Div-ser">
             <p className="Service">SERVICES</p>
             <p className="Company">what we do for<br/>companies</p>
-            <img src={Rectangle} alt="" className="Rectangle"/>
+            <img src={Rectangle} alt="" className="Rectangle" id="Rectangle"/>
 
         </div>
     )
